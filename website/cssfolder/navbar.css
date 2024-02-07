@@ -1,0 +1,44 @@
+
+html, body, h1, h2, h3, p, img, ul, li, figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* You can change the font-family */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.header a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #000;
+}
+
+/* Responsive Navigation Styles */
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+
+    .header a {
+        display: block;
+        margin: 10px 0;
+    }
+}

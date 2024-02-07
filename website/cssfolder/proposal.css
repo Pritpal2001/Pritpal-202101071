@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+/* Typography */
+.text-gray-600 {
+  color: #718096;
+}
+
+.text-gray-900 {
+  color: #2d3748;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-xl {
+  font-size: 1.875rem;
+}
+
+.title-font {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background-color: #4a5568;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2d3748;
+}
+
+/* Images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Forms */
+.select {
+  appearance: none;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  background-color: #f7fafc;
+}
+
+/* Borders */
+.border-b-2 {
+  border-bottom-width: 2px;
+  border-bottom-color: #e2e8f0;
+}
+
+/* Spacing */
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* Miscellaneous */
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* Utilities */
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
